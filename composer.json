@@ -1,0 +1,46 @@
+{
+    "name": "oasin/omnipay-perfectmoney",
+    "type": "library",
+    "description": "Perfect Money gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "perfectmoney",
+        "purchase"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kelvin Militia",
+            "email": "oasintech@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\PerfectMoney\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnipay\\PerfectMoney\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "omnipay/common": "^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
