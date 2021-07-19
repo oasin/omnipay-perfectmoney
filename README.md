@@ -1,7 +1,4 @@
-# omnipay-perfectMoney
-[![Build Status](https://travis-ci.com/mk990/omnipay-perfectmoney.svg?branch=master)](https://travis-ci.com/github/mk990/omnipay-perfectmoney)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a4e2fa978f7d47688581496e640b0eea)](https://www.codacy.com/app/sassoftinc/omnipay-perfectmoney?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=aleksandrzhiliaev/omnipay-perfectmoney&amp;utm_campaign=Badge_Grade)
-[![Total Downloads](https://poser.pugx.org/aleksandrzhiliaev/omnipay-perfectmoney/downloads)](https://packagist.org/packages/aleksandrzhiliaev/omnipay-perfectmoney)
+## omnipay-perfectMoney
 
 PerfectMoney gateway for [Omnipay](https://github.com/thephpleague/omnipay) payment processing library.
 
@@ -16,7 +13,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "mk990/omnipay-perfectmoney": "*"
+        "oasin/omnipay-perfectmoney": "*"
     }
 }
 ```
@@ -131,4 +128,4 @@ If you want to keep up to date with release announcements, discuss ideas for the
 or ask more detailed questions, there is also a [mailing list](https://groups.google.com/forum/#!forum/omnipay) which
 you can subscribe to.
 
-If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/aleksandrzhiliaev/omnipay-nixmoney/issues).
+If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/oasin/omnipay-nixmoney/issues).
